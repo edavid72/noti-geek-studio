@@ -28,7 +28,7 @@ const NewsProvider = ({ children }) => {
   useEffect(() => {
     const apiConsult = async () => {
       // API KEY
-      const apiKey = import.meta.env.VITE_API_KEY;
+      const apiKey = `cce0647284494008a95fda4c469a6a24`;
 
       const url = `https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=${apiKey}`;
 
